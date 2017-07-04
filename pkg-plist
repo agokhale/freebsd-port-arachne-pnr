@@ -1,0 +1,3 @@
+bin/arachne-pnr
+%%DATADIR%%/chipdb-1k.bin
+%%DATADIR%%/chipdb-8k.bin
