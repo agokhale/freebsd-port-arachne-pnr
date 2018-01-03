@@ -11,7 +11,7 @@ COMMENT=	Arachne is an fgpa synthesisr use with icestorm and yosys
 LICENSE=	MIT
 
 USES=		tar:xz gmake
-BUILD_DEPENDS= 	gmake:devel/gmake
+BUILD_DEPENDS= 	gmake:devel/gmake chipdb:cad/icestorm
 
 BINS=		arachne-pnr
 
