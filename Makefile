@@ -19,4 +19,9 @@ USE_GITHUB= 	yes
 GH_ACCOUNT=	agokhale
 GH_TAGNAME=	v0.1
 
+post-install:
+.for i in ${BINS}
+	${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/${i}
+.endfor
+
 .include <bsd.port.mk>
